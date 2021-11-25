@@ -1,0 +1,65 @@
+2021-11-25 08:46:07.654  INFO 51816 --- [main] com.example.logging.LoggingApplication   : Starting LoggingApplication using Java 17 on DESKTOP-TIOVNGP with PID 51816 (D:\Srirama\JavaPractice\logging\target\classes started by USER in D:\Srirama\JavaPractice\logging)
+2021-11-25 08:46:07.663  INFO 51816 --- [main] com.example.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2021-11-25 08:46:10.388  INFO 51816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 08:46:10.416  INFO 51816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 08:46:10.417  INFO 51816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 08:46:10.799  INFO 51816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 08:46:10.800  INFO 51816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2960 ms
+2021-11-25 08:46:12.021  WARN 51816 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-11-25 08:46:12.029  INFO 51816 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-11-25 08:46:12.090  INFO 51816 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 08:46:12.159 ERROR 51816 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-11-25 08:46:34.622  INFO 64052 --- [main] com.example.logging.LoggingApplication   : Starting LoggingApplication using Java 17 on DESKTOP-TIOVNGP with PID 64052 (D:\Srirama\JavaPractice\logging\target\classes started by USER in D:\Srirama\JavaPractice\logging)
+2021-11-25 08:46:34.633  INFO 64052 --- [main] com.example.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2021-11-25 08:46:37.638  INFO 64052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 08:46:37.665  INFO 64052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 08:46:37.666  INFO 64052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 08:46:38.043  INFO 64052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 08:46:38.043  INFO 64052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3223 ms
+2021-11-25 08:46:39.318  INFO 64052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-25 08:46:39.340  INFO 64052 --- [main] com.example.logging.LoggingApplication   : Started LoggingApplication in 6.175 seconds (JVM running for 8.895)
+2021-11-25 08:46:39.349  INFO 64052 --- [main] com.example.logging.User                 : ***userDao.saveUser started***
+2021-11-25 08:46:39.349  INFO 64052 --- [main] com.example.logging.UserDao              : ***UserDao.saveUser started***
+2021-11-25 08:46:39.349  INFO 64052 --- [main] com.example.logging.UserDao              : ***UserDao.saveUser finished***
+2021-11-25 08:46:39.349  INFO 64052 --- [main] com.example.logging.User                 : ***userDao.saveUser finished***
+2021-11-25 09:09:28.419  INFO 63744 --- [main] com.example.logging.LoggingApplication   : Starting LoggingApplication using Java 17 on DESKTOP-TIOVNGP with PID 63744 (D:\Srirama\JavaPractice\logging\target\classes started by USER in D:\Srirama\JavaPractice\logging)
+2021-11-25 09:09:28.438  INFO 63744 --- [main] com.example.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2021-11-25 09:09:31.776  INFO 63744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 09:09:31.807  INFO 63744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-25 09:09:31.808  INFO 63744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-11-25 09:09:32.254  INFO 63744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-25 09:09:32.254  INFO 63744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3517 ms
+2021-11-25 09:09:33.385  WARN 63744 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-11-25 09:09:33.393  INFO 63744 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-11-25 09:09:33.420  INFO 63744 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 09:09:33.484 ERROR 63744 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
