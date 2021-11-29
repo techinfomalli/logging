@@ -14,7 +14,6 @@ public class LoggingApplication {
 		User user= context.getBean(User.class);
 		user.createUser();
 		
-		
-	}
+		}
 
 }
